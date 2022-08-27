@@ -1,6 +1,6 @@
 #1. Create a greeting for your program.
 
-print('Greetings')
+print('Greetings, welcome to Band Name Generator')
 
 #2. Ask the user for the city that they grew up in.
 
