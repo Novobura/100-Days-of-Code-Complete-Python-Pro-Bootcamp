@@ -11,7 +11,7 @@
 
 print('Welcome to Tip Calculator')
 
-total = input('What is the bill total?\n')
+total = input('What is the bill total? $\n')
 
 party = input('How many members in your party?\n')
 
