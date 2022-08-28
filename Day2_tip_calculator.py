@@ -21,6 +21,8 @@ tip_total = (total / party) * (1 + (percent / 100))
 
 tip_total = round(tip_total, 2)
 
+bill_total = round(tip_total, 2)
+
 message = f"Your total bill plus tip is ${bill_total} dollars and will be ${tip_total} per party member. Have a nice day."
 
 print(message)
