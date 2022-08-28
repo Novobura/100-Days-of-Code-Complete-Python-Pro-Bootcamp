@@ -11,9 +11,9 @@ print('Welcome to Tip Calculator')
 
 total = float(input('What is the bill total? \n$'))
 
-party = float(input('How many members in your party?\n'))
+party = int(input('How many members in your party?\n'))
 
-percent = float(input('What percent tip would you like to give? 10, 12 or 15?\n'))
+percent = int(input('What percent tip would you like to give? 10, 12 or 15?\n'))
 
 bill_total = percent / 100 * total + total
 
@@ -21,6 +21,6 @@ tip_total = (total / party) * (1 + (percent / 100))
 
 tip_total = round(tip_total, 2)
 
-message = f"Your total bill plus tip is {bill_total} dollars and will be {tip_total} per party member. Have a nice day."
+message = f"Your total bill plus tip is ${bill_total} dollars and will be ${tip_total} per party member. Have a nice day."
 
 print(message)
