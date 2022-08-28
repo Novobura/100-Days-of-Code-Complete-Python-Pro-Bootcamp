@@ -7,8 +7,6 @@
 
 #Write your code below this line 👇
 
-#Write your code below this line 👇
-
 print('Welcome to Tip Calculator')
 
 total = input('What is the bill total? $\n')
